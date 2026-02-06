@@ -5,7 +5,7 @@
 ## Jawaban Tugas Analisis 1–6
 
 ### Analisis 1
-![Analisis 1](images/Analisis1.png)
+![Analisis 1](Analisis1.png)
 
 Kalau `hero1.hp` diubah jadi `500` setelah objek dibuat, nilainya langsung ikut berubah.  
 Karena atribut tersebut milik objek dan bisa diakses langsung.  

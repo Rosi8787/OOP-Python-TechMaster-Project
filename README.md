@@ -23,7 +23,7 @@ Jika hanya berupa string, objek tidak bisa berinteraksi secara langsung.
 ---
 
 ### Analisis 3
-![Analisis 3](Analisis3.png)
+![Analisis 3](Analisis3.py.png)
 
 Ketika `super()` dihapus, atribut dari class induk (`Hero`) seperti `name` tidak ikut dibuat.  
 Akibatnya muncul error *object has no attribute*.  

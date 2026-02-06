@@ -14,7 +14,7 @@ Jadi saat `print(hero1.hp)` dijalankan, output yang muncul adalah `500`.
 ---
 
 ### Analisis 2
-![Analisis 2](images/Analisis2.png)
+![Analisis 2](Analisis2.png)
 
 Parameter `lawan` merupakan sebuah objek utuh, bukan hanya nama atau string.  
 Hal ini penting karena objek tersebut memiliki data dan method yang bisa langsung digunakan (seperti HP dan method serang).  
@@ -23,7 +23,7 @@ Jika hanya berupa string, objek tidak bisa berinteraksi secara langsung.
 ---
 
 ### Analisis 3
-![Analisis 3](images/Analisis3.png)
+![Analisis 3](Analisis3.png)
 
 Ketika `super()` dihapus, atribut dari class induk (`Hero`) seperti `name` tidak ikut dibuat.  
 Akibatnya muncul error *object has no attribute*.  
@@ -32,7 +32,7 @@ Fungsi `super()` digunakan sebagai penghubung agar data dari parent class bisa d
 ---
 
 ### Analisis 4
-![Analisis 4](images/Analisis4.png)
+![Analisis 4](Analisis4.png)
 
 Atribut HP masih bisa ditampilkan walaupun bersifat private karena Python menggunakan *name mangling*.  
 Namun cara ini tidak disarankan karena melanggar konsep keamanan data.  
@@ -43,7 +43,7 @@ Setter digunakan untuk memastikan data tetap valid dan masuk akal.
 ---
 
 ### Analisis 5
-![Analisis 5](images/Analisis5.png)
+![Analisis 5](Analisis5.png)
 
 Error muncul karena class `Hero` belum memenuhi kontrak dari abstract class.  
 Artinya ada method abstract yang belum diimplementasikan.  
@@ -53,7 +53,7 @@ Abstract class tidak digunakan untuk membuat objek langsung, tetapi sebagai kera
 ---
 
 ### Analisis 6
-![Analisis 6](images/Analisis6.png)
+![Analisis 6](Analisis6.png)
 
 Program tetap berjalan walaupun ditambahkan class `Healer`.  
 Hal ini membuktikan bahwa polymorphism memudahkan pengembangan program.  

@@ -1,3 +1,7 @@
+**Nama   : Fatchur Rosi**
+**Kelas  : XIR RPL 1**
+**Absen  : 18**
+
 # Jawaban Tugas OOP – TechMaster
 
 ===========================================================================================
